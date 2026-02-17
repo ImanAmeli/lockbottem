@@ -1,6 +1,6 @@
-# Illustrator Tuck-End Box Generator
+# Illustrator Box Dieline Generator
 
-این ریپو یک اسکریپت ExtendScript برای Adobe Illustrator دارد که با آن می‌توانید دایلاین جعبه‌های Tuck-End بسازید.
+این ریپو یک اسکریپت ExtendScript برای Adobe Illustrator دارد که با آن می‌توانید دایلاین چند نوع جعبه بسازید.
 
 ## فایل اصلی
 
@@ -8,16 +8,22 @@
 
 ## قابلیت‌ها
 
-- ساخت دو نوع جعبه:
+- ساخت سه نوع جعبه:
   - Straight Tuck End (STE)
   - Reverse Tuck End (RTE)
+  - Tuck Top + Lock Bottom (TTLB / لاک‌باتم)
 - ورودی کامل ابعاد (میلی‌متر):
   - عرض پنل
   - عمق پنل
   - ارتفاع جعبه
   - عرض زبانه چسب
-  - عمق فلاپ بالا و پایین
-- تنظیم نسبت فلاپ گرد و خاک‌گیر و فرم زبانه تاک
+  - عمق فلاپ بالا
+  - عمق فلاپ پایین / لاک‌باتم
+- تنظیم نسبت‌های هندسی:
+  - Dust Flap Ratio
+  - Tuck Shoulder Ratio
+  - Tuck Tongue Ratio
+  - Lock Notch Ratio
 - ساخت خودکار لایه‌های:
   - `Dieline - Cut`
   - `Dieline - Crease`
